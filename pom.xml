@@ -48,6 +48,8 @@
         <javacsv.version>2.0</javacsv.version>
         <poi.version>3.9</poi.version>
         <bcprov.version>1.46</bcprov.version>
+        <hystrix.version>1.5.18</hystrix.version>
+        <sentinel.version>1.7.1</sentinel.version>
     </properties>
 
     <dependencyManagement>
@@ -252,6 +254,18 @@
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcprov-jdk16</artifactId>
                 <version>${bcprov.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.netflix.hystrix</groupId>
+                <artifactId>hystrix-core</artifactId>
+                <version>${hystrix.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.csp</groupId>
+                <artifactId>sentinel-core</artifactId>
+                <version>${sentinel.version}</version>
             </dependency>
 
         </dependencies>
