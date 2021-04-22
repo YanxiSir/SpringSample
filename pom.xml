@@ -42,7 +42,7 @@
         <qiniuyun.version>[7.2.0, 7.2.99]</qiniuyun.version>
         <oval.version>1.85</oval.version>
         <javatuples.version>1.2</javatuples.version>
-        <shiro.version>1.4.0</shiro.version>
+        <shiro.version>1.7.1</shiro.version>
         <shiro-redis.version>2.4.2.1-RELEASE</shiro-redis.version>
         <google.zxing.version>3.3.3</google.zxing.version>
         <javacsv.version>2.0</javacsv.version>
